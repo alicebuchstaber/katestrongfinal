@@ -1,0 +1,239 @@
+html, body {
+                width: 1280;
+                height: 818;
+                background-color: black;
+                position: relative;
+                margin:0 auto;
+            }
+.container {
+    position: absolute;
+    width: 1280px;
+    height: 2000px;
+    left: 50%;
+    margin-left: -640px;
+
+}
+.frame {
+	position: absolute;
+width: 1279px;
+height: 955px;
+background: #FFFFFF;
+}
+
+.S {
+
+position: absolute;
+left: 79px;
+top: -85px;
+
+font-family: Abril Fatface;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 70px;
+
+color: #22CFC5;}
+
+
+
+.K {
+
+position: absolute;
+left: 31px;
+top: -85px;
+
+font-family: Abril Fatface;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 70px;
+
+color: #22CFC5;}
+
+.kate {
+	position: absolute;
+width: 156px;
+height: 35px;
+left: 126px;
+top: -10px;
+
+font-family: Futura-CondensedMedium;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+letter-spacing: 0.1em;
+
+color: #22CFC5;
+
+}
+
+.strong {
+	position: absolute;
+width: 156px;
+height: 35px;
+left: 126px;
+top: 15px;
+
+font-family: Futura-CondensedMedium;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+letter-spacing: 0.1em;
+
+color: #22CFC5;
+
+}
+
+
+.bar1 {
+position: absolute;
+width: 15px;
+height: 640px;
+left: 9px;
+
+background: #22CFC5;
+animation: bar1_move 4s forwards;
+}
+
+@keyframes bar1_move {
+    0% {top: -740px; left:9px;}
+    100% {top: 0px; left: 9px;}
+}
+
+.bar2 {
+position: absolute;
+width: 15px;
+height: 640px;
+left: 952px;
+top: 620px;
+background: #22CFC5;
+transform: rotate(90deg);
+animation: bar2_move 4s forwards;
+}
+
+@keyframes bar2_move {
+    0% {top: 620px; left:1552px;}
+    100% {top: 620px; left: 952px;}
+}
+
+.mainpicture {
+position: absolute;
+width: 750px;
+height: 891px;
+left: 0px;
+top: 65px;
+opacity: 0.8;
+}
+
+.box {
+position: absolute;
+width: 454px;
+height: 176px;
+left: 441px;
+top: 85px;
+
+background: #FFFFFF;
+}
+
+
+.what {
+	position: absolute;
+width: 525px;
+height: 155px;
+left: 470px;
+top: px;
+
+font-family: Futura-CondensedMedium;
+font-size: 100px;
+
+color: #000000;
+
+}
+
+.story {
+position: absolute;
+width: 425px;
+height: 208px;
+left: 780px;
+top: 420px;
+
+font-family: Futura PT;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+font-size: 16px;
+
+color: #000000;
+
+}
+
+.sandwhich {
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    top: -15px;
+    right: 5px;
+}
+
+.rectangle1 {
+position: absolute;
+width: 35px;
+height: 5px;
+right: 0px;
+top: 0px;
+
+background: #22CFC5;
+}
+
+.rectangle2 {
+position: absolute;
+width: 35px;
+height: 5px;
+right: 0px;
+top: 8px;
+background: #22CFC5;
+}
+
+
+.rectangle3 {
+position: absolute;
+width: 21.94px;
+height: 5px;
+right: 0px;
+top: 16px;
+background: #22CFC5;
+}
+
+.menuarea {
+    width: 150px;
+    height: 180px;
+    background: #22CFC5;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    display: none;}
+
+    .link {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-style: thin;
+        font-weight: 300;
+        font-size: 22px;
+        color: white;
+        display: block;
+        margin-bottom: 10px;
+        text-align: right;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    .hover {
+        width: 70px;
+        height: 80px;
+        position: absolute;
+        top: 23px;
+        right: 0px;
+    }
+

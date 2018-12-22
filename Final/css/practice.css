@@ -1,0 +1,162 @@
+html, body {
+                width: 1280;
+                height: 818;
+                background-color: black;
+                position: relative;
+                margin: auto; 
+
+            }
+
+.container {
+	position: absolute;
+	width: 1280px;
+	height: 2000px;
+	left: 50%;
+	margin-left: -640px;
+
+}
+
+.video {
+	width: 1280px;
+	position: absolute;
+	animation: fadein 2s forwards;
+	animation-delay: 5s;
+	opacity: 0;
+	top: -50px;
+
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.sound {
+position: absolute;
+width: 41px;
+height: 31px;
+right: 20px;
+top: 674px;
+}
+
+.ks {
+position: absolute;
+width: 195px;
+height: 266px;
+left: 462px;
+top: 378px;
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 250px;
+color: #22CFC5;
+animation: ks_move 6s forwards; 
+animation-delay: 1s;
+opacity: 0;
+}
+
+
+@keyframes ks_move {
+	0% {top: -100px; left:462px; opacity: 1;}
+	30% {top: 178px; left: 462px; opacity: 1;}
+	100% {top: 178px; left: 462px; opacity: 0;}
+}
+
+
+
+
+.katestrong
+{
+position: absolute;
+width: 440px;
+height: 51.07px;
+left: 515px;
+top: 660px;
+
+font-family: 'Roboto', sans-serif;
+font-style: thin;
+font-weight: 300;
+font-size: 40px;
+
+color: #FFFFFF;
+animation: katestrong_move 7s forwards;
+}
+
+@keyframes katestrong_move {
+	0% {top: -100px; left:515px; opacity: 1;}
+	30% {top: 460px; left: 515px; opacity: 1;}
+	100% {top: 460px; left: 515px; opacity: 0;}
+
+}
+
+.sandwhich {
+	width: 70px;
+	height: 80px;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+
+.rectangle1 {
+position: absolute;
+width: 35px;
+height: 5px;
+right: 0px;
+top: 0px;
+
+background: #22CFC5;
+}
+
+.rectangle2 {
+position: absolute;
+width: 35px;
+height: 5px;
+right: 0px;
+top: 8px;
+background: #22CFC5;
+}
+
+
+.rectangle3 {
+position: absolute;
+width: 21.94px;
+height: 5px;
+right: 0px;
+top: 16px;
+background: #22CFC5;
+}
+
+.menuarea {
+	width: 150px;
+	height: 180px;
+	background: #22CFC5;
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	display: none;}
+
+	.link {
+		text-decoration: none;
+		font-family: 'Roboto', sans-serif;
+		font-style: thin;
+		font-weight: 300;
+		font-size: 22px;
+		color: white;
+		display: block;
+		margin-bottom: 10px;
+		text-align: right;
+		padding-right: 10px;
+		padding-top: 10px;
+	}
+
+	.hover {
+		width: 70px;
+		height: 80px;
+		position: absolute;
+		top: 23px;
+		right: 0px;
+	}
